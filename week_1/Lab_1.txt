@@ -1,0 +1,20 @@
+koduri@mr-Koduri:~$ whoami
+koduri
+koduri@mr-Koduri:~$ id
+uid=1000(koduri) gid=1000(koduri) groups=1000(koduri),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),118(netdev)
+koduri@mr-Koduri:~$ groups
+koduri adm dialout cdrom floppy sudo audio dip video plugdev netdev
+koduri@mr-Koduri:~$ passwdd
+
+Command 'passwdd' not found, did you mean:
+
+  command 'passwd' from deb passwd (1:4.8.1-1ubuntu5.20.04.4)
+
+Try: sudo apt install <deb name>
+
+koduri@mr-Koduri:~$ passwd
+Changing password for koduri.
+Current password:
+passwd: Authentication token manipulation error
+passwd: password unchanged
+koduri@mr-Koduri:~$
